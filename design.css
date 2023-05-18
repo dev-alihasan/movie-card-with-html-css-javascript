@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+
+body {
+  display: flex;
+}
+
+.card {
+  color: #fff;
+  width: 200px;
+  height: 300px;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 1em;
+  padding-top: 1.4em;
+  display: flex;
+  margin: 2em;
+}
+
+.crd-img-1 {
+  background-image: url(img/1.png);
+}
+.crd-img-2 {
+  background-image: url(img/2.png);
+}
+.crd-img-3 {
+  background-image: url(img/3.png);
+}
+.crd-img-4 {
+  background-image: url(img/4.png);
+}
+.crd-img-5 {
+  background-image: url(img/5.png);
+}
+
+.card .card__title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.2rem;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Merriweather", serif;
+  text-shadow: #f9f9f933;
+}
+
+.card-top {
+  margin-top: 1em;
+}
+
+.rating {
+  margin: 0 auto;
+  width: 85px;
+  height: 16px;
+  background-image: url("img/star.png");
+  background-repeat: space;
+}
+
+.card .card__info {
+  display: flex;
+  margin-top: auto;
+  font-size: 0.9rem;
+  color: rgb(146, 255, 82);
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.card .card__btns {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.card button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  background: #00b9ae47;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.card button:hover {
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+
+.card .add-btn {
+  padding: 0.5em 0.8em;
+
+  border-radius: 14px;
+
+  background-repeat: no-repeat;
+}
+
+.card .watch-btn {
+  flex: 1;
+}
